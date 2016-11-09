@@ -3,25 +3,48 @@
  - give a border to the section elements and a border radius of 10px
  - set up the document to use ems or rems based off of a 62.5% root font size
  - a transition that moves the <p> tags over a few pixels when you hover over them (and back when you aren't hovering)*/
-
-html, bdy {
+html, body {
 	font-family: Helvetica, Arial, sans-serif;
-	background: #eeee;
+  font-size: 62.5%;
+	background: #eee;
 }
 
 p {
-	margin: 10px 0;
-	font-weight: bold
+	margin-top: 10px;
+	font-weight: bold;
+  font-size: 2em;
+}
+
+p:hover{
+  padding-left: 20px;
 }
 
 section {
 	margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 2em;
+}
+
+section:hover{
+  background-color: green;
 }
 
 ul {
 	list-style: none;
 }
 
-ul {
-	list-style: none;
+.accordian{
+  border-style: solid;
+  border-radius: 2px;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+#ownership{
+  padding-top: 50px;
+  height: 100%;
+  text-align: center;
+  font-size: 10em;
 }

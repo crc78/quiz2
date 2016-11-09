@@ -1,41 +1,56 @@
-<doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-400000">
-	
-</head>
-<body>
-	<h1>Welcome To The Wonderful World of Debugging Code</h1>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz 2</title>
+    <link rel="stylesheet" href="./css/quiz2.css">
+  </head>
+  <body>
+    <h1 class="cool">Welcome To The Wonderful World of Debugging Code</h1>
 
-	<section id="mainSection">
-		<p>This is a paragraph, I promise.</p
+    <section id="mainSection">
+      <p class="cool">This is a paragraph, I promise.</p>
 
-		<ul class="links">
-			<li>
-				<a>Link 1<a>
-			</li>
-			<li>
-				<a href="#">Link 2</a>
-			</li>
-			<li>
-				<a href="#">Link 487
-			</li>
-		</ul>
-	
+      <ul class="links">
+        <li>
+          <a class="cool" href="#">Link 1</a>
+        </li>
+        <li>
+          <a class="cool" href="#">Link 2</a>
+        </li>
+        <li>
+          <a class="cool" href="#">Link 487</a>
+        </li>
+      </ul>
+    </section>
 
-	<p>I am a lonely paragraph, with no immediate parent.</p>
+    <p class="cool">I am a lonely paragraph, with no immediate parent.</p>
 
-	<section id=secondarySection>
-		<p>Woop woop!!!</p>
-		<p>See how elegantly we're spaced out?</p>
-		<p>Yeah, we're spaced out alright.<//p>
-		
-		<ol>
-			<li>I'm like an unordered list</li>	
-			<li>But I'm more orderly<li>
-			<li>That was a really bad joke.</li>
-		<ol>
-	</section>
-	
-</body>
-</hmtl>
+    <section id="secondarySection">
+      <p class="cool">Woop woop!!!</p>
+      
+      <p class="cool">See how elegantly we're spaced out?</p>
+      
+      <p class="cool">Yeah, we're spaced out alright.</p>
+      
+      <ol id="theOl">
+        <li class="cool">I'm like an unordered list</li>	
+        <li class="cool">But I'm more orderly</li>
+        <li class="cool">That was a really bad joke.</li>
+      </ol>
+    </section>
+    
+    <p class="cool">Click the box below:</p>
+    
+    <div class="accordian" onclick=openAccordian()></div>
+    
+    <button onclick=fading()>CLICK ME</button>
+    
+    <button onclick=happyFunction()>Click  me for fun</button>
+    
+    <div id="ownership" class="cool"></div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/quiz2.js"></script>
+  </body>
+</html>
